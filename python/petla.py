@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
 def main(args):
-   # a=10
-   a=input("Podaj liczbę")
-    b=5
-    print("suma:", a+b)
+    suma=0
+    for i in range(3):
+        liczba=int(input("Podaj liczbę:"))
+        suma=suma+liczba
+    print(suma)
     return 0
 
 if __name__ == '__main__':
