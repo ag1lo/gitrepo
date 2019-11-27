@@ -2,11 +2,15 @@
 # -*- coding: utf-8 -*-
 
 
-
 def main(args):
-    Liczba1=int(input("Podaj liczbę: ")
-    Liczba2=int(input("Podaj liczbę: ")
-    list(range(Liczba1,Liczba2))
+    start=stop=0
+    while start<1:
+        start=int(input("Podaj liczbę: "))
+    while stop<1 or stop<=start:   
+        stop=int(input("Podaj liczbę: "))
+    #if start>0 and stop>0 and start<stop:
+    for i in range(start,stop+1):
+        print(i, ' ', end =' ')
     return 0
 
 if __name__ == '__main__':
